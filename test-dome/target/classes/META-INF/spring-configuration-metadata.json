@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "message",
+      "type": "com.zf.dome.entity.MessageProperties",
+      "sourceType": "com.zf.dome.entity.MessageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "message.file-size",
+      "type": "java.lang.Long",
+      "description": "压缩大小",
+      "sourceType": "com.zf.dome.entity.MessageProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "message.image-type",
+      "type": "java.lang.String",
+      "description": "图片类型",
+      "sourceType": "com.zf.dome.entity.MessageProperties"
+    },
+    {
+      "name": "message.scale-ratio",
+      "type": "java.lang.Double",
+      "description": "压缩比例",
+      "sourceType": "com.zf.dome.entity.MessageProperties"
+    },
+    {
+      "name": "message.up-path",
+      "type": "java.lang.String",
+      "description": "保存路径",
+      "sourceType": "com.zf.dome.entity.MessageProperties"
+    }
+  ],
+  "hints": []
+}
